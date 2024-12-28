@@ -25,7 +25,7 @@ export default [
     },
     rules: {
       // close est lint prop-types
-      "react/prop-types": "off",
+      "react/prop-types": "off", //bu calismiyor :))
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
       ...react.configs["jsx-runtime"].rules,
