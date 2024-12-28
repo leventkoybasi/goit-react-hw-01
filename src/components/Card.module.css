@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #323232;
+  box-shadow: rgba(0, 0, 0, 0.5) 1.95px 1.95px 2.6px;
+  margin-top: 10px;
+}
+
+.name {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+}
+
+.tag {
+  font-size: 20px;
+  color: #8f8f8f;
+  margin: 15px 0 0 0;
+}
+
+.location {
+  font-size: 20px;
+  color: #8f8f8f;
+  margin: 5px 0 10px 0;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d3d3d3;
+  width: 100%;
+  border-top: 2px solid #a9a9a9;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 10px 0;
+  border-right: 2px solid #a9a9a9;
+  row-gap: 6px;
+}
+
+.item:last-child {
+  border-right: none;
+}
+
+.statName {
+  font-size: 14px;
+  color: #6b6b6b;
+}
+
+.statValue {
+  font-size: 18px;
+  font-weight: bold;
+}
